@@ -19,7 +19,8 @@ def get_input_from_user(prompt=None, max_input=50):
     Purpose:
         Get input from the user until user exits for max input is reached
     Args:
-        N/A
+        prompt (String): Prompt for the user. Use default if not set
+        max_input (Int): Max number of user input before auto-exit
     Yields:
         user_input (String): string input by the user
     """
