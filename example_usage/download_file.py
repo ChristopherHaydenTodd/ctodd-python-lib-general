@@ -29,7 +29,7 @@ from general_helpers import downloader
 def main():
     """
     Purpose:
-        Produce to a Kafka Topic
+        Starting Download File
     """
     logging.info("Starting Download File")
 
